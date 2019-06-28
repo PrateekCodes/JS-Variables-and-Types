@@ -44,12 +44,13 @@ Solve this using mathematical operations. (+, -, \*, / , etc)
 ```js
 var amount = 2080;
 // Define a new variable and store the value that is 80 less then the value of amount.
-
+var less = amount - 80;
 // Define a new variable and store the value that is 200 more then the value of amount.
-
+var more = amount + 200;
 // Define a new variable and store the value that is 4 times the value of amount.
-
+var multiply = amount * 4;
 // Define a new variable and store the reminder when the value of amount is  divided by 21.
+var reminder = amount % 21;
 ```
 
 Logical Operation:
