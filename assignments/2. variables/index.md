@@ -1,42 +1,45 @@
-1. In code below "Mark" is a string.  What is name?
+1. In code below "Mark" is a string. What is name?
+
 ```js
-var name = "Mark";
+var name = "Mark"; //Name is Variable String Type
 ```
 
 2. Find the error if any
+
 ```js
-  var product cost = 3.45;
+  var product cost = 3.45; //No Space Between Variable Name. Name Must be product_cost or productCost
 ```
 
 3. Write `Right or Wrong` next to the code below.
 
 ```js
-  "Hello World"
-  'Hello World"
-  "Hello World'
-  'Hello World'
+  "Hello World" //Right
+  'Hello World" //Wrong
+  "Hello World' //Wrong
+  'Hello World' //Right
 ```
 
 ## Write `VALID` and `INVALID` infront of the variable name defined below
+
 ```js
-var man;
-var 1girl;
-var woman3;
-var -girl;
-var blackDog;
-var 42;
-var $42;
-var userName;
-var x, y, z;
-var x = 5, y = 6, z = 7;
-var x = 5 + 10 + 2;
+var man; //VALID
+var 1girl; //INVALID
+var woman3; //VALID
+var -girl; //INVALID
+var blackDog; //VALID
+var 42; //INVALID
+var $42; //VALID
+var userName; //VALID
+var x, y, z; //VALID
+var x = 5, y = 6, z = 7; //VALID
+var x = 5 + 10 + 2; //VALID
 ```
 
 ## Basic Operations
 
 Mathematical Operations:
 
-Solve this using mathematical operations. (+, -, *, / , etc)
+Solve this using mathematical operations. (+, -, \*, / , etc)
 
 ```js
 var amount = 2080;
