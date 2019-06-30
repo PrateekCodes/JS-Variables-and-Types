@@ -62,6 +62,7 @@ var johnAge = 45;
 var markAge = 35;
 
 // Check who is older eithe John or Mark
+
 // Check who is younger
 // Check if their age is equal
 // Create a new variable and assign the age of john to new variable.
