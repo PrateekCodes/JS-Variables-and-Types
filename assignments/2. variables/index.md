@@ -62,12 +62,18 @@ var johnAge = 45;
 var markAge = 35;
 
 // Check who is older eithe John or Mark
-
+((johnAge>markAge)&&alert(John is older than mark)||(markAge>johnAge)&&alert(Mark is older than John.))
 // Check who is younger
+((johnAge<markAge)&&alert(John is Younger than mark)||(markAge<johnAge)&&alert(Mark is Younger than John.))
 // Check if their age is equal
+(johnAge===markAge&&alert(John age equal to mark age))
 // Create a new variable and assign the age of john to new variable.
+var johnage=johnAge
+var markage =markAge
 // Check if john is equal to or greater then mark.
+(johnAge>=markAge&&alert(John age is More than or equal to mark age))
 // Check if john is less then or equal to mark.
-
+(johnAge<=markAge&&alert(John age is less than or equal to mark age))
 // Calculate the average age of john and mark and assign to a new variable.
+var avgAge=(johnAge+markAge)/2
 ```
