@@ -65,5 +65,5 @@ else alert("Go for it. It is pretty nice out");
 4. 🎖 Output of this
 
 ```js
-alert(alert(1) || 2 || alert(3)); //want to askk
+alert(alert(1) || 2 || alert(3)); //1 Then 2
 ```

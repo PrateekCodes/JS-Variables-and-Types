@@ -7,7 +7,7 @@
 - [ ] Write a function called calculateTax which takes an argument 'amount' and calculates the tax you need to pay.
 - [ ] Write a function named formatAmount which returns you amount in this format '\$ 132.45' make the decimal fixed to 2 places.
 
-```js
+````js
 const SPENDING_THRESHOLD = 200;
 const TAX_RATE = 0.08;
 const PHONE_PRICE = 99.99;
@@ -15,8 +15,33 @@ const ACCESSORY_PRICE = 9.99;
 
 var bank_balance = 303.91;
 var amount = 0;
-// your code goes here
-```
+```jss
+while(bank_balance < 0) {
+	bank_balance -= PHONE_PRICE;
+	amount += PHONE_PRICE;
+	if (amount < SPENDING_THRESHOLD) {
+		bank_balance -= ACCESSORY_PRICE;
+		amount += ACCESSORY_PRICE;
+	}
+}
+// Can you afford it?
+if (amount <= bank_balance) {
+  console.log('You can afford this');
+} else {
+  console.log("You can't afford this");
+}
+
+// Calculate Tax
+function calculateTax(amount) {
+	return (TAX_RATE * amount);
+}
+// add tax into the amount and return the result
+function formatAmount(amount) {
+	return (amount + calculateTax(amount) );
+}
+
+console.log( `$ ${formatAmount(amount).toFixed(2)}` );
+````
 
 ⛑ Answer of the above will `$334.76`.
 
@@ -58,8 +83,14 @@ for (var i = 1; i < 11; i++) {
 ```js
 // 1, 2, 3, 4, 5
 // 6, 7, 8, 9, 10
-
-// Your code goes here
+var a = "";
+var b = "";
+for (var i = 1; i < 6; i++) {
+  a += `${i} `;
+  b += `${i + 5} `;
+}
+console.log(a);
+console.log(b);
 ```
 
 6. 🎖Use a while loop to add up the numbers 1 to 20.
